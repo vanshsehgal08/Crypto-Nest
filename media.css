@@ -1,0 +1,203 @@
+@media screen and (max-width: 1321px) {
+    .rocket .rocket_content,
+    .rocket_img {
+        width: 38%;
+    }
+    .news .cards {
+        width: 97%;
+    }
+}
+
+@media screen and (max-width: 1091px) {
+    header nav {
+        width: 90%;
+    }
+    header section {
+        width: 90%;
+    }
+    .app .app_img_bx {
+        width: 40%;
+    }
+    .app .app_img_bx,
+    .app_content_bx {
+        width: 45%;
+    }
+    .rocket .rocket_content,
+    .rocket_img {
+        width: 45%;
+    }
+    .man .man_img,
+    .man_content {
+        width: 40%;
+    }
+    .news .cards {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .news .cards .card {
+        margin: 10px;
+    }
+}
+
+@media screen and (max-width: 938px) {
+    header section .img_data img {
+        width: 420px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    header nav ul li {
+        padding: 3px 7px;
+    }
+    header nav ul li a {
+        font-size: 11px;
+    }
+    .app .app_img_bx,
+    .app_content_bx {
+        width: 45%;
+    }
+    .converter .cards {
+        flex-direction: column;
+    }
+    .converter .cards .card2 {
+        margin: 30px;
+    }
+    .rocket {
+        flex-direction: column-reverse;
+    }
+    .rocket .rocket_content,
+    .rocket_img {
+        width: 70%;
+    }
+    .man .man_img,
+    .man_content {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 755px) {
+    header {
+        height: 90vh;
+    }
+    header nav ul {
+        position: absolute;
+        top: -2px;
+    }
+    header nav ul li a {
+        font-size: 10px;
+    }
+    header section {
+        flex-direction: column-reverse;
+    }
+    header section .content,
+    .img_data {
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    header section .content {
+        flex-direction: column;
+    }
+    header section .content p {
+        width: 380px;
+    }
+    header section .content button {
+        margin: 10px;
+    }
+    aside img {
+        margin-top: 0px;
+    }
+    .app {
+        flex-direction: column;
+    }
+    .app .app_img_bx,
+    .app_content_bx {
+        width: 65%;
+    }
+    .man {
+        flex-direction: column;
+    }
+    .man .man_img,
+    .man_content {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 469px) {
+    header section .img_data img {
+        width: 370px;
+    }
+    header section .content {
+        align-items: flex-start;
+    }
+    header section .content h1 {
+        font-size: 35px;
+        line-height: 55px;
+    }
+    .app .app_img_bx,
+    .app_content_bx {
+        width: 80%;
+    }
+    .rocket .rocket_content,
+    .rocket_img {
+        width: 80%;
+    }
+    .man .man_img,
+    .man_content {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 405px) {
+    header nav ul li a {
+        font-size: 8px;
+    }
+    header section .content h1 {
+        font-size: 29px;
+        line-height: 42px;
+    }
+    header section .content p {
+        width: 300px;
+    }
+    aside .time span {
+        margin: 0px 10px;
+        font-size: 30px;
+    }
+    aside .time span h6 {
+        font-size: 8px;
+    }
+    .rocket .rocket_img img {
+        width: 80%;
+    }
+    aside p {
+        font-size: 9px;
+        text-align: center;
+        width: 300px;
+    }
+    .converter .cards .card {
+        width: 310px;
+        height: 200px;
+    }
+    .converter .cards .card .select .select1 select {
+        width: 185px;
+    }
+    .converter .cards .card .enter_bitcoin input {
+        width: 196px;
+    }
+    .road_map p {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width:355px) {
+    .road_map .map .card {
+        width: 331px;
+    }
+    .road_map .map .card .title h6 {
+        font-size: 11px;
+    }
+    .road_map .map .card h5 {
+        width: 18px;
+    }
+}
